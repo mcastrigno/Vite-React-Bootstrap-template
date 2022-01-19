@@ -1,7 +1,7 @@
 import React from "react";
 
-const Staff = () => {
+function Staff() {
   return <div>This if the Staff</div>;
-};
+}
 
 export default Staff;

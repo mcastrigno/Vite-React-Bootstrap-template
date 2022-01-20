@@ -33,7 +33,7 @@ function RComm_layout() {
           dragInterval={1}
           direction="vertical"
           cursor="row-resize"
-          className="split-flex-col"
+          className="split-flex-column"
         >
           <Staff />
           <Events />

@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: row;
   }
-.split-flex-col {
+.split-flex-column {
     display: flex;
     flex-direction:column ;
   }
   .gutter.gutter-horizontal {
   cursor: col-resize;
 }
-  .gutter.gutter-veritcal{
+  .gutter.gutter-vertical{
   cursor: row-resize;
 }

@@ -9,7 +9,6 @@ ReactDOM.render(
   <React.StrictMode>
     <div style={{ height: "1000px" }}>
       <RComm_layout />
-      <Vertical_test />
     </div>
   </React.StrictMode>,
   document.getElementById("root")

@@ -7,10 +7,25 @@
     display: flex;
     flex-direction:column ;
     height: 100%;
+    border-left-style: solid;
+    border-left-width: 2px;
   }
   .gutter.gutter-horizontal {
   cursor: col-resize;
+  height: 49px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-image: url('./vertical_handle.svg');
 }
   .gutter.gutter-vertical{
   cursor: row-resize;
+  width: 48px;
+  height: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  background-image: url('./horizontal_handle.svg');
 }

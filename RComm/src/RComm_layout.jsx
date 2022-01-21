@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Split from "react-split";
 import Rooms from "./Rooms";
 import Staff from "./Staff";
-import Events from "./Events";
+import Statuses from "./Statuses";
 import "./Split.css";
 
 function RComm_layout() {
@@ -35,7 +35,7 @@ function RComm_layout() {
         className="split-flex-column"
       >
         <Staff />
-        <Events />
+        <Statuses />
       </Split>
     </Split>
   );

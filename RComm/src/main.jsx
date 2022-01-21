@@ -7,8 +7,10 @@ import Vertical_test from "./Vertical_test";
 
 ReactDOM.render(
   <React.StrictMode>
-    <RComm_layout />
-    <Vertical_test />
+    <div style={{ height: "1000px" }}>
+      <RComm_layout />
+      <Vertical_test />
+    </div>
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -9,7 +9,7 @@ import "./Split.css";
 
 function Vertical_test() {
   return (
-    <>
+    <div style={{ height: "400px" }}>
       <Split
         sizes={[60, 40]}
         minSize={200}
@@ -25,7 +25,7 @@ function Vertical_test() {
         <Staff />
         <Events />
       </Split>
-    </>
+    </div>
   );
 }
 export default Vertical_test;

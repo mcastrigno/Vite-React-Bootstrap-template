@@ -9,7 +9,7 @@ import "./Split.css";
 
 function RComm_layout() {
   return (
-    <>
+    <div style={{ height: "400px" }}>
       <Split
         sizes={[75, 25]}
         minSize={100}
@@ -33,13 +33,13 @@ function RComm_layout() {
           dragInterval={1}
           direction="vertical"
           cursor="row-resize"
-          className="split-flex-column"
+          className="split-flex-col"
         >
           <Staff />
           <Events />
         </Split>
       </Split>
-    </>
+    </div>
   );
 }
 export default RComm_layout;

@@ -9,23 +9,21 @@ import "./Split.css";
 
 function Vertical_test() {
   return (
-    <div style={{ height: "400px" }}>
-      <Split
-        sizes={[60, 40]}
-        minSize={200}
-        expandToMin={false}
-        gutterSize={10}
-        gutterAlign="center"
-        snapOffset={30}
-        dragInterval={1}
-        direction="vertical"
-        cursor="row-resize"
-        className="split-flex-column"
-      >
-        <Staff />
-        <Events />
-      </Split>
-    </div>
+    <Split
+      sizes={[60, 40]}
+      minSize={200}
+      expandToMin={false}
+      gutterSize={10}
+      gutterAlign="center"
+      snapOffset={30}
+      dragInterval={1}
+      direction="vertical"
+      cursor="row-resize"
+      className="split-flex-column"
+    >
+      <Staff />
+      <Events />
+    </Split>
   );
 }
 export default Vertical_test;

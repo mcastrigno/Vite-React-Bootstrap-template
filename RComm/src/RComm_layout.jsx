@@ -9,37 +9,35 @@ import "./Split.css";
 
 function RComm_layout() {
   return (
-    <div style={{ height: "400px" }}>
+    <Split
+      sizes={[75, 25]}
+      minSize={100}
+      expandToMin={false}
+      gutterSize={10}
+      gutterAlign="center"
+      snapOffset={30}
+      dragInterval={1}
+      direction="horizontal"
+      cursor="col-resize"
+      className="split-flex-row"
+    >
+      <Rooms />
       <Split
-        sizes={[75, 25]}
+        sizes={[60, 40]}
         minSize={100}
         expandToMin={false}
         gutterSize={10}
         gutterAlign="center"
         snapOffset={30}
         dragInterval={1}
-        direction="horizontal"
-        cursor="col-resize"
-        className="split-flex-row"
+        direction="vertical"
+        cursor="row-resize"
+        className="split-flex-col"
       >
-        <Rooms />
-        <Split
-          sizes={[60, 40]}
-          minSize={100}
-          expandToMin={false}
-          gutterSize={10}
-          gutterAlign="center"
-          snapOffset={30}
-          dragInterval={1}
-          direction="vertical"
-          cursor="row-resize"
-          className="split-flex-col"
-        >
-          <Staff />
-          <Events />
-        </Split>
+        <Staff />
+        <Events />
       </Split>
-    </div>
+    </Split>
   );
 }
 export default RComm_layout;

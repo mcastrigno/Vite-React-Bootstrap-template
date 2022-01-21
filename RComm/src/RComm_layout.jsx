@@ -6,6 +6,8 @@ import Rooms from "./Rooms";
 import Staff from "./Staff";
 import Statuses from "./Statuses";
 import "./Split.css";
+import Title_bar from "./Title_bar";
+import Main_panel from "./Main_panel";
 
 function RComm_layout() {
   return (
@@ -21,7 +23,7 @@ function RComm_layout() {
       cursor="col-resize"
       className="split-flex-row"
     >
-      <Rooms />
+      <Main_panel />
       <Split
         sizes={[60, 40]}
         minSize={100}

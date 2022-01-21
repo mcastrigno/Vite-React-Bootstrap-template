@@ -1,9 +1,10 @@
 import React from "react";
+import "./rooms.css";
 
 function Rooms() {
   return (
     <>
-      <div>
+      <div className={"rooms"}>
         <div>
           <div>Proc1</div>
           <div>Proc2</div>

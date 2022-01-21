@@ -7,7 +7,7 @@ import Vertical_test from "./Vertical_test";
 
 ReactDOM.render(
   <React.StrictMode>
-    <div style={{ height: "1000px" }}>
+    <div style={{ height: "100vh" }}>
       <RComm_layout />
     </div>
   </React.StrictMode>,

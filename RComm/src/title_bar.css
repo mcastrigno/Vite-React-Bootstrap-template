@@ -3,5 +3,8 @@
     flex-direction: row;
     justify-content:space-between;
     width: 100%;
-
+    font-size: 2em;
+}
+.title_bar_element{
+    padding: 1rem;
 }

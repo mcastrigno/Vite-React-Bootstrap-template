@@ -1,0 +1,8 @@
+.growl_alerts{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    padding: 1rem;
+    font-size: 1.5em;
+
+}

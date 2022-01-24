@@ -4,9 +4,10 @@ import "./title_bar.css";
 function Title_bar() {
   return (
     <div className={"title_bar"}>
-      <div>This the login logo</div>
-      <div>This is the facility name</div>
-      <div>This is the filter</div>
+      <div className={"title_bar_element"}>Login</div>
+      <div className={"title_bar_element"}>SLMV Dermatology</div>
+
+      <div className={"title_bar_element"}>Filter</div>
     </div>
   );
 }

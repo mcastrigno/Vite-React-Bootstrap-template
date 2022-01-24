@@ -1,4 +1,5 @@
 import React from "react";
+import Growler_bar from "./Growler_alerts";
 import "./main_panel.css";
 import Rooms from "./Rooms";
 import Title_bar from "./Title_bar";
@@ -8,6 +9,7 @@ function Main_panel() {
     <div className={"main_panel"}>
       <Title_bar />
       <Rooms />
+      <Growler_bar />
     </div>
   );
 }

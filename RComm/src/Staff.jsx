@@ -1,7 +1,12 @@
 import React from "react";
+import "./staff.css";
 
 function Staff() {
-  return <div>This if the Staff</div>;
+  return (
+    <div>
+      <div className="staff-header">STAFF</div>
+    </div>
+  );
 }
 
 export default Staff;

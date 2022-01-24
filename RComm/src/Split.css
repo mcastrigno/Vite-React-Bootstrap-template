@@ -17,7 +17,7 @@
   margin-right: 3px;
   margin-top: auto;
   margin-bottom: auto;
-  background-image: url('./vertical_handle.svg');
+  background-image: url('public/vertical_handle.svg');
 }
   .gutter.gutter-vertical{
   cursor: row-resize;
@@ -27,5 +27,5 @@
   margin-right: auto;
   margin-top: 3px;
   margin-bottom: 3px;
-  background-image: url('./horizontal_handle.svg');
+  background-image: url('public/horizontal_handle.svg');
 }

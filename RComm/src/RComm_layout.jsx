@@ -1,13 +1,9 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import { Container, Row, Col } from "react-bootstrap";
 import Split from "react-split";
-import Rooms from "./Rooms";
 import Staff from "./Staff";
 import Statuses from "./Statuses";
-import "./Split.css";
-import Title_bar from "./Title_bar";
 import Main_panel from "./Main_panel";
+import "./Split.css";
 
 function RComm_layout() {
   return (
